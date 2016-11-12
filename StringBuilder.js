@@ -1,4 +1,4 @@
-((function(wwindow) {
+((function(window) {
   /**
   * Creates new {@link StringBuilder} instances.
   *
