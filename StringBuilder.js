@@ -24,7 +24,6 @@
     this.content[++this._index] = value;
   };
   
-
   /**
   * Returns string representation of String Builder instance 
   *
@@ -33,6 +32,6 @@
     return this.content.join('');
   };
 
-  window.harness = StringBuilder;
+  window.StringBuilder = StringBuilder;
 
 }(window)))
