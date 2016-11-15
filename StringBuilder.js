@@ -1,4 +1,4 @@
-((function(window) {
+(function(exports) {
   /**
   * Creates new {@link StringBuilder} instances.
   *
@@ -32,6 +32,6 @@
     return this.content.join('');
   };
 
-  window.StringBuilder = StringBuilder;
+  exports.StringBuilder = StringBuilder;
 
-}(window)))
+})(typeof exports === 'undefined' ? this.StringBuilder = {} : exports);
